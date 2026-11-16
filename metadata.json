@@ -1,0 +1,6 @@
+{
+  "name": "ArduLink",
+  "description": "Arduino Bluetooth devreleri için RC araba kontrolü, uzaktan cihaz/röle yönetimi ve canlı sensör telemetri grafikleri.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">ArduLink</string>
+    <string name="app_subtitle">Arduino BT Control</string>
+
+    <!-- Navigation -->
+    <string name="nav_car">Car</string>
+    <string name="nav_control">Control</string>
+    <string name="nav_controller">Gamepad</string>
+    <string name="nav_sensors">Sensors</string>
+    <string name="nav_terminal">Terminal</string>
+
+    <!-- Sub-Tabs -->
+    <string name="tab_multi_switch">10-Key Panel</string>
+    <string name="tab_devices">Circuits</string>
+    <string name="tab_gamepad">Gamepad</string>
+    <string name="tab_keypad">4x4 Keypad</string>
+    <string name="tab_serial">Serial Port</string>
+    <string name="tab_voice">Voice Terminal</string>
+
+    <!-- Common Actions -->
+    <string name="action_add">Add</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_send">Send</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_enable">Enable</string>
+
+    <!-- Connection & Top Bar -->
+    <string name="status_connected">Connected</string>
+    <string name="status_connecting">Connecting...</string>
+    <string name="status_connecting_device">%1$s connecting...</string>
+    <string name="status_disconnected">Not Connected</string>
+    <string name="status_error_connect">Error • Connect</string>
+    <string name="status_simulation">SIMULATION</string>
+    <string name="sim_banner_active">TEST SIMULATION MODE ACTIVE • No physical Arduino connected</string>
+    <string name="cd_bluetooth_status">Bluetooth Status</string>
+    <string name="cd_toggle_theme">Switch Theme (%1$s)</string>
+
+    <!-- Bluetooth Sheet -->
+    <string name="bt_sheet_title">Bluetooth Device Connection</string>
+    <string name="bt_paired_devices">Paired Devices</string>
+    <string name="bt_discovered_devices">Discovered Devices</string>
+    <string name="bt_scan_start">Scan Devices</string>
+    <string name="bt_scan_stop">Stop Scan</string>
+    <string name="bt_disconnect">Disconnect</string>
+    <string name="bt_connect">Connect</string>
+    <string name="bt_permission_required">Permission is required to scan and connect to Bluetooth devices.</string>
+    <string name="bt_grant_permission">Grant</string>
+    <string name="bt_disabled_warning">Device Bluetooth is turned off. Please enable Bluetooth.</string>
+    <string name="bt_no_paired">No paired Bluetooth devices found.</string>
+    <string name="bt_unsupported_banner">This device/emulator reports no physical Bluetooth hardware. You can use Test Simulation Mode below.</string>
+    <string name="bt_rfcomm_channel">RFCOMM SPP Channel</string>
+    <string name="bt_sim_active_title">Test Simulation Mode Active</string>
+    <string name="bt_sim_active_subtitle">Generating sample Arduino telemetry</string>
+    <string name="bt_demo_title">Test Simulation Mode (Demo)</string>
+    <string name="bt_demo_desc">Test car controls, relays, and live sensor charts without a physical Arduino circuit.</string>
+    <string name="bt_demo_open">Start Demo</string>
+    <string name="bt_demo_stop">Stop</string>
+    <string name="bt_unknown_device">Unknown Device</string>
+    <string name="bt_default_module">Arduino Module</string>
+    <string name="bt_err_no_adapter">No Bluetooth adapter found on this device.</string>
+    <string name="bt_err_disabled">Bluetooth is off. Please enable Bluetooth in device settings.</string>
+    <string name="bt_err_scan_perm">Required permissions for Bluetooth scanning were not granted.</string>
+    <string name="bt_err_scan_start">Could not start Bluetooth discovery.</string>
+    <string name="bt_err_scan_denied">Bluetooth scan permission denied: %1$s</string>
+    <string name="bt_err_connect_perm">Bluetooth connect permission is required.</string>
+    <string name="bt_err_connect_closed">Bluetooth is off or unsupported.</string>
+    <string name="bt_evt_connecting">Connecting to %1$s (%2$s)...</string>
+    <string name="bt_evt_connected">Connected: %1$s</string>
+    <string name="bt_evt_connect_failed">Connection failed (%1$s): %2$s</string>
+    <string name="bt_evt_device_unreachable">Device unreachable</string>
+    <string name="bt_evt_disconnected_io">Connection lost: %1$s</string>
+    <string name="bt_evt_serial_closed">Serial port closed</string>
+    <string name="bt_evt_send_failed">Failed to send command: %1$s</string>
+    <string name="bt_evt_disconnected">Bluetooth disconnected.</string>
+    <string name="bt_evt_sim_started">TEST SIMULATION MODE started (No physical hardware connected).</string>
+    <string name="msg_not_connected">Command not sent: Connect to a Bluetooth device or Simulation Mode first.</string>
+
+    <!-- Car Control -->
+    <string name="car_title">RC Car Cockpit</string>
+    <string name="car_blueprint_cd">Arduino Smart Car Schematic</string>
+    <string name="car_mode_two_hand">Two-Hand</string>
+    <string name="car_mode_joystick">Joystick</string>
+    <string name="car_mode_dpad">One-Hand</string>
+    <string name="car_dir_idle">IDLE</string>
+    <string name="car_dir_forward">FORWARD</string>
+    <string name="car_dir_backward">REVERSE</string>
+    <string name="car_dir_left">TURN LEFT</string>
+    <string name="car_dir_right">TURN RIGHT</string>
+    <string name="car_dir_fwd_left">FWD LEFT</string>
+    <string name="car_dir_fwd_right">FWD RIGHT</string>
+    <string name="car_dir_bwd_left">REV LEFT</string>
+    <string name="car_dir_bwd_right">REV RIGHT</string>
+    <string name="car_label_forward">FORWARD</string>
+    <string name="car_label_reverse">REVERSE</string>
+    <string name="car_label_left">LEFT</string>
+    <string name="car_label_right">RIGHT</string>
+    <string name="car_label_stop">STOP</string>
+    <string name="car_throttle_header">THROTTLE / BRAKE</string>
+    <string name="car_steering_header">STEERING (LEFT / RIGHT)</string>
+    <string name="car_twohand_hint">Left Hand: Fwd / Rev  •  Right Hand: Left / Right</string>
+    <string name="car_landscape_hint">Landscape Ready</string>
+    <string name="car_speed_label">Motor Power (PWM)</string>
+    <string name="car_speed_slow">Slow</string>
+    <string name="car_speed_med">Med</string>
+    <string name="car_speed_turbo">Turbo</string>
+    <string name="car_aux_header">Vehicle Systems</string>
+    <string name="car_emergency_stop">EMERGENCY STOP</string>
+    <string name="car_headlights">Lights</string>
+    <string name="car_hazards">Hazards</string>
+    <string name="car_horn">Horn</string>
+    <string name="car_auto_mode">Auto</string>
+    <string name="car_auto_badge">AUTO</string>
+    <string name="car_distance_label">Front Distance</string>
+    <string name="car_battery_cd">Battery Voltage</string>
+
+    <!-- 10-Key Multi Switch -->
+    <string name="multi_switch_title">10-Button Multi Control</string>
+    <string name="multi_switch_subtitle">Edit each button to assign a custom name and Arduino TX code</string>
+    <string name="multi_active_count">%1$d / 10 Active</string>
+    <string name="multi_all_on">Turn All On</string>
+    <string name="multi_all_off">Turn All Off</string>
+    <string name="multi_state_on">ON • TX: %1$s</string>
+    <string name="multi_state_off">OFF • TX: %1$s</string>
+    <string name="multi_edit_title">Customize Button %1$d</string>
+    <string name="multi_edit_desc">Set a custom label and ON/OFF commands to match your Arduino sketch.</string>
+    <string name="multi_edit_name_label">Button Name (e.g. LED, Buzzer)</string>
+    <string name="multi_edit_on_label">ON Command (TX)</string>
+    <string name="multi_edit_off_label">OFF Command (TX)</string>
+    <string name="multi_default_name">Button %1$d</string>
+    <string name="msg_multi_all_on">All 10 buttons turned ON.</string>
+    <string name="msg_multi_all_off">All 10 buttons turned OFF.</string>
+
+    <!-- Device Control -->
+    <string name="devices_title">Circuit &amp; Device Control</string>
+    <string name="devices_add_button">New Button</string>
+    <string name="devices_all_off">All Off</string>
+    <string name="devices_active_count">%1$d active outputs</string>
+    <string name="devices_trigger">TRIGGER (%1$s)</string>
+    <string name="devices_add_dialog_title">Add Custom Control Button</string>
+    <string name="devices_name_hint">Device Name (e.g. Garden Light)</string>
+    <string name="devices_pin_hint">Pin</string>
+    <string name="devices_desc_hint">Subtitle</string>
+    <string name="devices_type_label">Control Type</string>
+    <string name="devices_cmd_on_hint">ON Command (TX)</string>
+    <string name="devices_cmd_trig_hint">Trigger Command (TX)</string>
+    <string name="devices_cmd_prefix_hint">Command Prefix (e.g. SRV:)</string>
+    <string name="devices_cmd_off_hint">OFF Command (TX)</string>
+    <string name="devices_max_hint">Max Value (180 or 255)</string>
+    <string name="devices_icon_label">Select Icon</string>
+    <string name="msg_all_devices_off">All active relays and outputs turned off.</string>
+    <string name="type_toggle">Switch (On/Off)</string>
+    <string name="type_momentary">Momentary Push</string>
+    <string name="type_slider">PWM / Servo Slider</string>
+    <string name="icon_relay">Relay</string>
+    <string name="icon_light">Lighting</string>
+    <string name="icon_fan">Fan / Cooling</string>
+    <string name="icon_servo">Servo Motor</string>
+    <string name="icon_pump">Water Pump</string>
+    <string name="icon_buzzer">Buzzer / Alarm</string>
+    <string name="icon_lock">Lock / Gate</string>
+    <string name="icon_custom">Custom Pin</string>
+
+    <!-- Gamepad & 4x4 Keypad -->
+    <string name="gamepad_title">Arduino Gamepad</string>
+    <string name="gamepad_stop_on_release">Stop on Release</string>
+    <string name="gamepad_last_tx">LAST TX</string>
+    <string name="keypad_title">4x4 Matrix Keypad</string>
+    <string name="keypad_last_tx">Last TX: %1$s</string>
+    <string name="keypad_mode_direct">Direct TX</string>
+    <string name="keypad_mode_buffer">PIN / Buffer</string>
+    <string name="keypad_direct_hint">Key is transmitted immediately on tap</string>
+    <string name="keypad_direct_sent">Sent: %1$s</string>
+
+    <!-- Sensors -->
+    <string name="sensors_title">Live Sensor Telemetry</string>
+    <string name="sensors_pause">Pause</string>
+    <string name="sensors_resume">Resume</string>
+    <string name="sensors_clear">Clear</string>
+    <string name="sensors_empty_title">Waiting for live data</string>
+    <string name="sensors_empty_desc">Connect your Arduino device or enable Simulation Mode to test. Format: TEMP:24.5,HUM:58,DIST:42</string>
+    <string name="sensors_all_channels">All Sensor Channels</string>
+    <string name="sensors_waiting_data">Waiting for data</string>
+    <string name="stat_min">MIN</string>
+    <string name="stat_avg">AVG</string>
+    <string name="stat_max">MAX</string>
+    <string name="stat_packets">PACKETS</string>
+    <string name="ch_temp">Temperature</string>
+    <string name="ch_temp_short">TMP</string>
+    <string name="ch_hum">Humidity</string>
+    <string name="ch_hum_short">HUM</string>
+    <string name="ch_dist">Ultrasonic Distance</string>
+    <string name="ch_dist_short">DST</string>
+    <string name="ch_volt">Battery Voltage</string>
+    <string name="ch_volt_short">VLT</string>
+    <string name="ch_light">Light Level</string>
+    <string name="ch_light_short">LGT</string>
+
+    <!-- Terminal & Voice -->
+    <string name="terminal_title">Serial Port Monitor</string>
+    <string name="terminal_hint">Send command (e.g. STATUS, R1_ON)...</string>
+    <string name="terminal_send">Send</string>
+    <string name="terminal_clear">Clear</string>
+    <string name="terminal_filter_all">All (%1$d)</string>
+    <string name="terminal_filter_rx">RX Incoming</string>
+    <string name="terminal_filter_tx">TX Outgoing</string>
+    <string name="terminal_filter_sys">System</string>
+    <string name="terminal_empty_title">Serial port stream ready</string>
+    <string name="terminal_empty_desc">All incoming (RX) and outgoing (TX) Arduino Bluetooth packets appear here live.</string>
+    <string name="voice_title">Voice Command Terminal</string>
+    <string name="voice_raw_toggle">Raw Text</string>
+    <string name="voice_tap_to_speak">Tap microphone to speak</string>
+    <string name="voice_listening">Listening... Speak a command</string>
+    <string name="voice_processing">Processing...</string>
+    <string name="voice_no_match">Could not recognize speech, try again.</string>
+    <string name="voice_timeout">No speech detected.</string>
+    <string name="voice_perm_needed">Microphone permission is required.</string>
+    <string name="voice_perm_denied">Microphone permission denied.</string>
+    <string name="voice_ready_code">Speech recognizer ready (Code: %1$d)</string>
+    <string name="voice_recognized">Recognized</string>
+    <string name="voice_recognized_text">Recognized: \"%1$s\"</string>
+    <string name="voice_unavailable">Speech recognition service is unavailable on this device/emulator. Tap any rule below to test.</string>
+    <string name="voice_rules_header">Voice Command Rules (Tap to test)</string>
+    <string name="voice_add_rule">Add Rule</string>
+    <string name="voice_add_dialog_title">Add New Voice Command</string>
+    <string name="voice_phrase_hint">Spoken Phrase (e.g. open gate)</string>
+    <string name="voice_tx_hint">Arduino TX Code (e.g. GATE_TRIG)</string>
+    <string name="voice_match_rule">\"%1$s\" → %2$s</string>
+    <string name="voice_match_raw">Raw Text → %1$s</string>
+    <string name="voice_match_none">No matching rule: \"%1$s\"</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings &amp; Protocol</string>
+    <string name="settings_language">Language / Dil</string>
+    <string name="lang_system">System</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_english">English</string>
+    <string name="settings_theme">Appearance Theme</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_system">System</string>
+    <string name="settings_line_ending">Line Ending Character</string>
+    <string name="line_ending_none">None</string>
+    <string name="settings_protocol_title">Arduino Serial Protocol Guide</string>
+    <string name="settings_protocol_car_hdr">CAR CONTROL (TX):</string>
+    <string name="settings_protocol_car_body">F (Forward) • B (Reverse) • L (Left) • R (Right) • S (Stop)\nG/I/H/J (Diagonal) • SPD:0..255 (Speed)\nW/w (Lights) • X/x (Hazards) • V/v (Horn) • A/a (Auto)</string>
+    <string name="settings_protocol_ctrl_hdr">10-KEY PANEL • GAMEPAD • 4x4 KEYPAD (TX):</string>
+    <string name="settings_protocol_ctrl_body">10-Key: B1_ON / B1_OFF .. B10_ON (Customizable)\nGamepad: A, B, X, Y, L1, L2, R1, R2, SEL, STR, F/B/L/R\n4x4 Keypad: 0..9, A..D, *, # (or Buffer String)</string>
+    <string name="settings_protocol_rx_hdr">SENSOR TELEMETRY (RX - Arduino Serial.println):</string>
+    <string name="settings_protocol_rx_body">TEMP:24.5,HUM:58,DIST:42,VOLT:11.8,LIGHT:75\nor JSON: {\"temp\":24.5,\"hum\":58,\"dist\":42}</string>
+</resources>

@@ -1,0 +1,255 @@
+<resources>
+    <string name="app_name">ArduLink</string>
+    <string name="app_subtitle">Arduino BT Kontrol</string>
+
+    <!-- Navigation -->
+    <string name="nav_car">Araba</string>
+    <string name="nav_control">Kontrol</string>
+    <string name="nav_controller">Kumanda</string>
+    <string name="nav_sensors">Sensörler</string>
+    <string name="nav_terminal">Terminal</string>
+
+    <!-- Sub-Tabs -->
+    <string name="tab_multi_switch">10\'lu Panel</string>
+    <string name="tab_devices">Devreler</string>
+    <string name="tab_gamepad">Gamepad</string>
+    <string name="tab_keypad">4x4 Keypad</string>
+    <string name="tab_serial">Seri Port</string>
+    <string name="tab_voice">Sesli Terminal</string>
+
+    <!-- Common Actions -->
+    <string name="action_add">Ekle</string>
+    <string name="action_save">Kaydet</string>
+    <string name="action_cancel">İptal</string>
+    <string name="action_close">Kapat</string>
+    <string name="action_delete">Sil</string>
+    <string name="action_edit">Düzenle</string>
+    <string name="action_send">Gönder</string>
+    <string name="action_clear">Temizle</string>
+    <string name="action_refresh">Yenile</string>
+    <string name="action_enable">Aç</string>
+
+    <!-- Connection & Top Bar -->
+    <string name="status_connected">Bağlı</string>
+    <string name="status_connecting">Bağlanıyor...</string>
+    <string name="status_connecting_device">%1$s bağlanıyor...</string>
+    <string name="status_disconnected">Bağlı Değil</string>
+    <string name="status_error_connect">Hata • Bağlan</string>
+    <string name="status_simulation">SİMÜLASYON</string>
+    <string name="sim_banner_active">TEST SİMÜLASYON MODU AKTİF • Fiziksel Arduino bağlı değil</string>
+    <string name="cd_bluetooth_status">Bluetooth Durumu</string>
+    <string name="cd_toggle_theme">Tema Değiştir (%1$s)</string>
+
+    <!-- Bluetooth Sheet -->
+    <string name="bt_sheet_title">Bluetooth Cihaz Bağlantısı</string>
+    <string name="bt_paired_devices">Eşleştirilmiş Cihazlar</string>
+    <string name="bt_discovered_devices">Bulunan Cihazlar</string>
+    <string name="bt_scan_start">Cihaz Tara</string>
+    <string name="bt_scan_stop">Taramayı Durdur</string>
+    <string name="bt_disconnect">Bağlantıyı Kes</string>
+    <string name="bt_connect">Bağlan</string>
+    <string name="bt_permission_required">Bluetooth cihazlarını taramak ve bağlanmak için izin gerekiyor.</string>
+    <string name="bt_grant_permission">İzin Ver</string>
+    <string name="bt_disabled_warning">Cihaz Bluetooth\'u kapalı. Lütfen Bluetooth\'u açın.</string>
+    <string name="bt_no_paired">Eşleştirilmiş Bluetooth cihazı bulunamadı.</string>
+    <string name="bt_unsupported_banner">Bu cihaz/emülatör fiziksel Bluetooth donanımı bildirmiyor. Aşağıdan Test Simülasyon Modunu kullanabilirsiniz.</string>
+    <string name="bt_rfcomm_channel">RFCOMM SPP Kanalı</string>
+    <string name="bt_sim_active_title">Test Simülasyon Modu Aktif</string>
+    <string name="bt_sim_active_subtitle">Örnek Arduino verisi üretiliyor</string>
+    <string name="bt_demo_title">Test Simülasyon Modu (Demo)</string>
+    <string name="bt_demo_desc">Fiziksel Arduino devresi olmadan araba kontrolünü, röleleri ve canlı sensör grafiklerini test edin.</string>
+    <string name="bt_demo_open">Demo Aç</string>
+    <string name="bt_demo_stop">Durdur</string>
+    <string name="bt_unknown_device">Bilinmeyen Cihaz</string>
+    <string name="bt_default_module">Arduino Modülü</string>
+    <string name="bt_err_no_adapter">Bu cihazda Bluetooth adaptörü bulunamadı.</string>
+    <string name="bt_err_disabled">Bluetooth kapalı. Lütfen cihaz ayarlarından Bluetooth\'u açın.</string>
+    <string name="bt_err_scan_perm">Bluetooth taraması için gerekli izinler verilmedi.</string>
+    <string name="bt_err_scan_start">Bluetooth taraması başlatılamadı.</string>
+    <string name="bt_err_scan_denied">Bluetooth tarama izni reddedildi: %1$s</string>
+    <string name="bt_err_connect_perm">Bluetooth bağlantı izni gerekli.</string>
+    <string name="bt_err_connect_closed">Bluetooth kapalı veya desteklenmiyor.</string>
+    <string name="bt_evt_connecting">%1$s (%2$s) cihazına bağlanılıyor...</string>
+    <string name="bt_evt_connected">Bağlantı kuruldu: %1$s</string>
+    <string name="bt_evt_connect_failed">Bağlantı başarısız (%1$s): %2$s</string>
+    <string name="bt_evt_device_unreachable">Cihaz erişilemiyor</string>
+    <string name="bt_evt_disconnected_io">Bağlantı koptu: %1$s</string>
+    <string name="bt_evt_serial_closed">Seri port kapandı</string>
+    <string name="bt_evt_send_failed">Komut gönderilemedi: %1$s</string>
+    <string name="bt_evt_disconnected">Bluetooth bağlantısı kesildi.</string>
+    <string name="bt_evt_sim_started">TEST SİMÜLASYON MODU başlatıldı (Fiziksel donanım bağlı değil).</string>
+    <string name="msg_not_connected">Komut gönderilemedi: Önce Bluetooth cihazına veya Simülasyon Moduna bağlanın.</string>
+
+    <!-- Car Control -->
+    <string name="car_title">RC Araba Kokpiti</string>
+    <string name="car_blueprint_cd">Arduino Akıllı Araç Şeması</string>
+    <string name="car_mode_two_hand">Çift El</string>
+    <string name="car_mode_joystick">Joystick</string>
+    <string name="car_mode_dpad">Tek El</string>
+    <string name="car_dir_idle">DURUYOR</string>
+    <string name="car_dir_forward">İLERİ</string>
+    <string name="car_dir_backward">GERİ</string>
+    <string name="car_dir_left">SOLA DÖN</string>
+    <string name="car_dir_right">SAĞA DÖN</string>
+    <string name="car_dir_fwd_left">İLERİ SOL</string>
+    <string name="car_dir_fwd_right">İLERİ SAĞ</string>
+    <string name="car_dir_bwd_left">GERİ SOL</string>
+    <string name="car_dir_bwd_right">GERİ SAĞ</string>
+    <string name="car_label_forward">İLERİ</string>
+    <string name="car_label_reverse">GERİ</string>
+    <string name="car_label_left">SOL</string>
+    <string name="car_label_right">SAĞ</string>
+    <string name="car_label_stop">DUR</string>
+    <string name="car_throttle_header">GAZ / FREN</string>
+    <string name="car_steering_header">DİREKSİYON (SAĞ / SOL)</string>
+    <string name="car_twohand_hint">Sol El: İleri / Geri  •  Sağ El: Sol / Sağ</string>
+    <string name="car_landscape_hint">Yatay Mod Destekli</string>
+    <string name="car_speed_label">Motor Gücü (PWM)</string>
+    <string name="car_speed_slow">Yavaş</string>
+    <string name="car_speed_med">Orta</string>
+    <string name="car_speed_turbo">Turbo</string>
+    <string name="car_aux_header">Araç Donanımları</string>
+    <string name="car_emergency_stop">ACİL DUR</string>
+    <string name="car_headlights">Farlar</string>
+    <string name="car_hazards">Dörtlü</string>
+    <string name="car_horn">Korna</string>
+    <string name="car_auto_mode">Otonom</string>
+    <string name="car_auto_badge">OTONOM</string>
+    <string name="car_distance_label">Ön Mesafe</string>
+    <string name="car_battery_cd">Batarya Voltajı</string>
+
+    <!-- 10-Key Multi Switch -->
+    <string name="multi_switch_title">10\'lu Çoklu Kontrol Paneli</string>
+    <string name="multi_switch_subtitle">Her tuşu düzenleyip özel isim ve Arduino komutu atayın</string>
+    <string name="multi_active_count">%1$d / 10 Aktif</string>
+    <string name="multi_all_on">Tümünü Aç</string>
+    <string name="multi_all_off">Tümünü Kapat</string>
+    <string name="multi_state_on">AÇIK • TX: %1$s</string>
+    <string name="multi_state_off">KAPALI • TX: %1$s</string>
+    <string name="multi_edit_title">%1$d. Butonu Özelleştir</string>
+    <string name="multi_edit_desc">Arduino kodunuzda dinleyeceğiniz özel buton adını ve açma/kapama komutlarını belirleyin.</string>
+    <string name="multi_edit_name_label">Buton Adı (örn. LED, Buzzer)</string>
+    <string name="multi_edit_on_label">Açma Komutu (TX)</string>
+    <string name="multi_edit_off_label">Kapama Komutu (TX)</string>
+    <string name="multi_default_name">Buton %1$d</string>
+    <string name="msg_multi_all_on">10 butonun tümü açıldı.</string>
+    <string name="msg_multi_all_off">10 butonun tümü kapatıldı.</string>
+
+    <!-- Device Control -->
+    <string name="devices_title">Devre &amp; Cihaz Kontrolü</string>
+    <string name="devices_add_button">Yeni Buton</string>
+    <string name="devices_all_off">Tümünü Kapat</string>
+    <string name="devices_active_count">%1$d aktif çıkış</string>
+    <string name="devices_trigger">TETİKLE (%1$s)</string>
+    <string name="devices_add_dialog_title">Özel Kontrol Butonu Ekle</string>
+    <string name="devices_name_hint">Cihaz Adı (örn. Bahçe Lambası)</string>
+    <string name="devices_pin_hint">Pin</string>
+    <string name="devices_desc_hint">Açıklama</string>
+    <string name="devices_type_label">Kontrol Tipi</string>
+    <string name="devices_cmd_on_hint">Açma Komutu (TX)</string>
+    <string name="devices_cmd_trig_hint">Tetik Komutu (TX)</string>
+    <string name="devices_cmd_prefix_hint">Komut Ön Eki (örn. SRV:)</string>
+    <string name="devices_cmd_off_hint">Kapama Komutu (TX)</string>
+    <string name="devices_max_hint">Maksimum Değer (180 veya 255)</string>
+    <string name="devices_icon_label">İkon Seçimi</string>
+    <string name="msg_all_devices_off">Tüm aktif röle ve çıkışlar kapatıldı.</string>
+    <string name="type_toggle">Anahtar (Aç/Kapa)</string>
+    <string name="type_momentary">Bas-Çalıştır</string>
+    <string name="type_slider">PWM / Servo Ayarı</string>
+    <string name="icon_relay">Röle</string>
+    <string name="icon_light">Aydınlatma</string>
+    <string name="icon_fan">Fan / Soğutma</string>
+    <string name="icon_servo">Servo Motor</string>
+    <string name="icon_pump">Su Pompası</string>
+    <string name="icon_buzzer">Buzzer / Alarm</string>
+    <string name="icon_lock">Kilit / Kapı</string>
+    <string name="icon_custom">Özel Pin</string>
+
+    <!-- Gamepad & 4x4 Keypad -->
+    <string name="gamepad_title">Arduino Gamepad</string>
+    <string name="gamepad_stop_on_release">Bırakınca Dur</string>
+    <string name="gamepad_last_tx">SON TX</string>
+    <string name="keypad_title">4x4 Matris Keypad</string>
+    <string name="keypad_last_tx">Son TX: %1$s</string>
+    <string name="keypad_mode_direct">Anlık Gönder</string>
+    <string name="keypad_mode_buffer">Şifre / Tampon</string>
+    <string name="keypad_direct_hint">Tuşa basıldığında anında gönderilir</string>
+    <string name="keypad_direct_sent">Gönderilen: %1$s</string>
+
+    <!-- Sensors -->
+    <string name="sensors_title">Canlı Sensör Telemetrisi</string>
+    <string name="sensors_pause">Duraklat</string>
+    <string name="sensors_resume">Devam Et</string>
+    <string name="sensors_clear">Temizle</string>
+    <string name="sensors_empty_title">Canlı veri bekleniyor</string>
+    <string name="sensors_empty_desc">Arduino cihazınıza bağlanın veya test için Simülasyon Modunu açın. Örnek veri: TEMP:24.5,HUM:58,DIST:42</string>
+    <string name="sensors_all_channels">Tüm Sensör Kanalları</string>
+    <string name="sensors_waiting_data">Veri bekleniyor</string>
+    <string name="stat_min">MİN</string>
+    <string name="stat_avg">ORT</string>
+    <string name="stat_max">MAKS</string>
+    <string name="stat_packets">PAKET</string>
+    <string name="ch_temp">Sıcaklık</string>
+    <string name="ch_temp_short">SIC</string>
+    <string name="ch_hum">Nem Oranı</string>
+    <string name="ch_hum_short">NEM</string>
+    <string name="ch_dist">Ultrasonik Mesafe</string>
+    <string name="ch_dist_short">MES</string>
+    <string name="ch_volt">Batarya Voltajı</string>
+    <string name="ch_volt_short">VLT</string>
+    <string name="ch_light">Işık Şiddeti</string>
+    <string name="ch_light_short">IŞK</string>
+
+    <!-- Terminal & Voice -->
+    <string name="terminal_title">Seri Port Monitörü</string>
+    <string name="terminal_hint">Komut gönder (örn. STATUS, R1_ON)...</string>
+    <string name="terminal_send">Gönder</string>
+    <string name="terminal_clear">Temizle</string>
+    <string name="terminal_filter_all">Tümü (%1$d)</string>
+    <string name="terminal_filter_rx">RX Gelen</string>
+    <string name="terminal_filter_tx">TX Giden</string>
+    <string name="terminal_filter_sys">Sistem</string>
+    <string name="terminal_empty_title">Seri port akışı hazır</string>
+    <string name="terminal_empty_desc">Arduino\'dan gelen (RX) ve gönderilen (TX) tüm Bluetooth komutları burada canlı izlenir.</string>
+    <string name="voice_title">Sesli Komut Terminali</string>
+    <string name="voice_raw_toggle">Ham Metin</string>
+    <string name="voice_tap_to_speak">Konuşmak için mikrofona dokunun</string>
+    <string name="voice_listening">Dinleniyor... Türkçe veya İngilizce komut söyleyin</string>
+    <string name="voice_processing">İşleniyor...</string>
+    <string name="voice_no_match">Ses anlaşılamadı, tekrar deneyin.</string>
+    <string name="voice_timeout">Konuşma algılanmadı.</string>
+    <string name="voice_perm_needed">Mikrofon izni gerekli.</string>
+    <string name="voice_perm_denied">Mikrofon izni reddedildi.</string>
+    <string name="voice_ready_code">Ses tanıma hazır (Kod: %1$d)</string>
+    <string name="voice_recognized">Algılandı</string>
+    <string name="voice_recognized_text">Algılanan: \"%1$s\"</string>
+    <string name="voice_unavailable">Bu cihazda/emülatörde ses tanıma servisi yüklü değil. Aşağıdaki komutlara dokunarak test edebilirsiniz.</string>
+    <string name="voice_rules_header">Ses Komutu Kuralları (Dokunarak da test edin)</string>
+    <string name="voice_add_rule">Kural Ekle</string>
+    <string name="voice_add_dialog_title">Yeni Ses Komutu Ekle</string>
+    <string name="voice_phrase_hint">Söylenecek Kelime (örn. kapıyı aç)</string>
+    <string name="voice_tx_hint">Gönderilecek Arduino Kodu (örn. GATE_TRIG)</string>
+    <string name="voice_match_rule">\"%1$s\" → %2$s</string>
+    <string name="voice_match_raw">Ham Metin → %1$s</string>
+    <string name="voice_match_none">Eşleşen kural yok: \"%1$s\"</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar &amp; Protokol</string>
+    <string name="settings_language">Dil / Language</string>
+    <string name="lang_system">Sistem</string>
+    <string name="lang_turkish">Türkçe</string>
+    <string name="lang_english">English</string>
+    <string name="settings_theme">Görünüm Teması</string>
+    <string name="theme_dark">Koyu Mod</string>
+    <string name="theme_light">Aydınlık Mod</string>
+    <string name="theme_system">Sistem</string>
+    <string name="settings_line_ending">Satır Sonu Karakteri</string>
+    <string name="line_ending_none">Yok</string>
+    <string name="settings_protocol_title">Arduino Seri Haberleşme Protokolü</string>
+    <string name="settings_protocol_car_hdr">ARABA KONTROLÜ (TX):</string>
+    <string name="settings_protocol_car_body">F (İleri) • B (Geri) • L (Sol) • R (Sağ) • S (Dur)\nG/I/H/J (Çapraz) • SPD:0..255 (Hız)\nW/w (Far) • X/x (Dörtlü) • V/v (Korna) • A/a (Otonom)</string>
+    <string name="settings_protocol_ctrl_hdr">10\'LU PANEL • GAMEPAD • 4x4 KEYPAD (TX):</string>
+    <string name="settings_protocol_ctrl_body">10\'lu Panel: B1_ON / B1_OFF .. B10_ON (Düzenlenebilir)\nGamepad: A, B, X, Y, L1, L2, R1, R2, SEL, STR, F/B/L/R\n4x4 Keypad: 0..9, A..D, *, # (veya Tampon Metin)</string>
+    <string name="settings_protocol_rx_hdr">SENSÖR TELEMETRİSİ (RX - Arduino Serial.println):</string>
+    <string name="settings_protocol_rx_body">TEMP:24.5,HUM:58,DIST:42,VOLT:11.8,LIGHT:75\nveya JSON: {\"temp\":24.5,\"hum\":58,\"dist\":42}</string>
+</resources>
